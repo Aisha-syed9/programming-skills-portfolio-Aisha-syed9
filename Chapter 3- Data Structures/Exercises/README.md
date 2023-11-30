@@ -39,7 +39,8 @@ Think of your favorite mode of transportation, such as a motorcycle or a car, an
 
 to print a series of statements about these items, such as “I would like to own a Honda motorcycle.”
 
-&nbsp;
+
+&nbsp;print("i would like to own a Honda motorcycle.")
 &nbsp;
 
 ## Exercise 4: Guest List :ballot_box_with_check:
@@ -48,7 +49,13 @@ If you could invite anyone, living or deceased, to dinner, who would you invite?
 
 like to invite to dinner. Then use your list to print a message to each person, invitingthem to dinner.
 
-&nbsp;
+&nbsp;# List of deceased artists to invite to dinner
+deceased_artists = ['Vincent van Gogh', 'Leonardo da Vinci', 'Frida Kahlo']
+
+# Generating dinner invitations for each artist
+for artist in deceased_artists:
+    print(f"Dear {artist},\n\nIt would be a privilege to host you for dinner. Your artistic legacy has left an indelible mark on the world, and I deeply admire your contributions to the realm of art. Join me for an evening of appreciation and conversation.\n\nWarm regards,\n[Your Name]")
+
 &nbsp;
 
 ## Exercise 5: Change Guest List :ballot_box_with_check:
