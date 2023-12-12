@@ -14,7 +14,8 @@ Write a loop that prompts the user to enter a series of pizza toppings until the
 print a message saying you’ll add that topping to their pizza.
 
 
-&nbsp;
+&nbsp;  prompt = "\nwhat topping would you like on your pizza?"
+
 &nbsp;
 
 ## Exercise 2: Movie Tickets: :ballot_box_with_check:

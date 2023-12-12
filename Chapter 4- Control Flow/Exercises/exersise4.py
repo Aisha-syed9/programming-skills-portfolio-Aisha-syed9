@@ -1,5 +1,4 @@
 #Exersice 1
-#Version 1
 alien_color = 'green'
 
 if alien_color == 'green':
