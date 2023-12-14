@@ -51,7 +51,7 @@ for word, meaning in glossary.items():
     print(f"{meaning}\n")
 
 
-#excercise 4
+#Excercise 4
 rivers = {
     'Nile': 'Egypt',
     'Amazon': 'Brazil',
@@ -80,7 +80,8 @@ pets = [pet1, pet2, pet3]
 for pet in pets:
     print(f"Animal: {pet['animal']}")
     print(f"Owner: {pet['owner']}")
-    print()  # Empty line for better readability
+    print() 
+     # Empty line for better readability
 
 
 
