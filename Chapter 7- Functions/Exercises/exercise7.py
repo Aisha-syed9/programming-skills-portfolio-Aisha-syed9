@@ -1,5 +1,4 @@
 #Exercise 1
-
 def display_message():
     print("In this chapter, I am learning about Python functions and how to define and call them.")
 
@@ -56,10 +55,8 @@ make_shirt('small', 'Keep Calm and Code On')
 #Exercise 5
 def describe_city(city, country='Unknown'):
     print(f"{city} is in {country}.")
-
+    
 #Calling the function for three different cities
 describe_city('Reykjavik', 'Iceland')
 describe_city('Paris', 'France')
 describe_city('Sydney', 'Australia')
-
-
