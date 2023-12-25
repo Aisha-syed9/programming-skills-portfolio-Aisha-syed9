@@ -27,10 +27,12 @@ while True:
 
 
 #Exercise 3
-while True:
+nonstop_quit = True
+
+while nonstop_quit:
     print("This loop will run nonstopquit!")
 
-
+    
 
 
 
@@ -47,35 +49,37 @@ print("\nList of sandwiches made:")
 for sandwich in finished_sandwiches:
     print(sandwich)
 
+
+
+
+
+
+
+
 #Excercise 5
-# List of sandwich orders
+#List of sandwich orders
 sandwich_orders = [
     'Chicken and Cheese', 'Pastrami', 'Turkey Club', 'Pastrami', 
     'Tuna', 'Vegetarian', 'Pastrami', 'Pastrami'
 ]
 
-# Empty list for finished sandwiches
+#Empty list for finished sandwiches
 finished_sandwiches = []
 
-# Informing the deli has run out of pastrami
+#Informing the deli has run out of pastrami
 print("We're sorry, the deli has run out of pastrami.")
 
-# Removing all occurrences of 'pastrami' from sandwich_orders
+#Removing all occurrences of 'pastrami' from sandwich_orders
 while 'Pastrami' in sandwich_orders:
     sandwich_orders.remove('Pastrami')
 
-# Making sandwiches (excluding pastrami) and moving them to finished_sandwiches
+#Making sandwiches (excluding pastrami) and moving them to finished_sandwiches
 for order in sandwich_orders:
     if order != 'Pastrami':  # Ensuring no pastrami sandwiches end up in finished_sandwiches
         print(f"I made your {order} sandwich.")
         finished_sandwiches.append(order)
 
-# Displaying the finished sandwiches
+#Displaying the finished sandwiches
 print("\nList of sandwiches made:")
 for sandwich in finished_sandwiches:
     print(sandwich)
-
-
-
-
-
